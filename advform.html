@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form Attributes Demo</title>
+</head>
+<body>
+
+    <h1>HTML5 Form Attributes Practice</h1>
+<form>
+        <fieldset>
+    <legend><b>Student Information Form</b></legend>
+
+            <br>
+
+        
+  <label>Student Name :</label>
+            <input type="text"
+                   placeholder="Write your full name"
+                   required
+                   autofocus>
+
+            <br><br>
+
+            <!-- Required + Placeholder -->
+            <label>Email Address :</label>
+            <input type="email"
+                   placeholder="example@gmail.com"
+                   required>
+
+            <br><br>
+            <label>Create Password :</label>
+            <input type="password"
+                   maxlength="10"
+                   placeholder="Maximum 10 characters">
+
+            <br><br>
+            <label>University ID :</label>
+            <input type="text"
+                   value="STU2026A01"
+                   readonly>
+
+            <br><br>
+
+            <label>Course Name :</label>
+            <input type="text"
+                   value="Web Development"
+                   disabled>
+
+            <br><br>
+            <label>Age :</label>
+            <input type="number"
+                   min="18"
+                   max="30"
+                   placeholder="18 to 30">
+
+            <br><br>
+            <label>Choose Shift :</label>
+            <input type="radio"
+                   name="shift"
+                   checked>
+            Morning
+            <input type="radio"
+                   name="shift">
+            Evening
+            <br><br>
+
+            
+            <label>Technologies Known :</label>
+            <input type="checkbox" checked>
+            HTML
+            <input type="checkbox">
+            CSS
+            <input type="checkbox">
+            JavaScript
+            <br><br>
+            <input type="submit" value="Register">
+  <input type="reset" value="Clear Form">
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
