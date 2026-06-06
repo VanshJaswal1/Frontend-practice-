@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML and Internal CSS Practice</title>
+
+<style>
+
+body{
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+.main{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.heading{
+    text-align: center;
+    color: darkblue;
+}
+
+.box{
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.table1{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table1 th,
+.table1 td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.red{
+    color: red;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="main">
+
+<h1 class="heading">HTML Practice Page</h1>
+
+<hr>
+
+<h2>Paragraph Tag</h2>
+
+<p>
+This is a paragraph. HTML is used to create webpages and CSS is used to style them.
+</p>
+
+<hr>
+
+<h2>Text Formatting Tags</h2>
+
+<b>Bold Text</b><br><br>
+
+<strong>Strong Text</strong><br><br>
+
+<i>Italic Text</i><br><br>
+
+<em>Emphasized Text</em><br><br>
+
+<u>Underlined Text</u><br><br>
+
+<mark>Highlighted Text</mark><br><br>
+
+<small>Small Text</small><br><br>
+
+H<sub>2</sub>O<br><br>
+
+x<sup>2</sup>
+
+<hr>
+
+<h2>Links</h2>
+
+<a href="#">Click Here</a>
+
+<hr>
+
+<h2>Lists</h2>
+
+<h3>Ordered List</h3>
+
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ol>
+
+<h3>Unordered List</h3>
+
+<ul>
+<li>Apple</li>
+<li>Mango</li>
+<li>Banana</li>
+</ul>
+
+<hr>
+
+<h2>Table</h2>
+
+<table class="table1">
+
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>City</th>
+</tr>
+
+<tr>
+<td>Vansh</td>
+<td>18</td>
+<td>Shimla</td>
+</tr>
+
+<tr>
+<td>Rahul</td>
+<td>20</td>
+<td>Delhi</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Form</h2>
+
+<form>
+
+<label>Name :</label>
+<input type="text">
+
+<br><br>
+
+<label>Password :</label>
+<input type="password">
+
+<br><br>
+
+<label>Email :</label>
+<input type="email">
+
+<br><br>
+
+<label>Gender :</label>
+
+<input type="radio" name="gender"> Male
+
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>Skills :</label>
+
+<input type="checkbox"> HTML
+
+<input type="checkbox"> CSS
+
+<input type="checkbox"> JavaScript
+
+<br><br>
+
+<select>
+
+<option>India</option>
+
+<option>USA</option>
+
+<option>Canada</option>
+
+</select>
+
+<br><br>
+
+<textarea rows="5" cols="30"></textarea>
+
+<br><br>
+
+<button class="btn">Submit</button>
+
+</form>
+
+<hr>
+
+<h2>Div Tag</h2>
+
+<div class="box">
+This is a div container.
+</div>
+
+<hr>
+
+<h2>Span Tag</h2>
+
+<p>
+My favourite colour is
+<span class="red">Red</span>.
+</p>
+
+<hr>
+
+<h2>Details and Summary</h2>
+
+<details>
+
+<summary>Click Here</summary>
+
+<p>
+This text appears after clicking.
+</p>
+
+</details>
+
+<hr>
+
+<h2>Progress Tag</h2>
+
+<progress value="70" max="100"></progress>
+
+<hr>
+
+<h2>Code Tag</h2>
+
+<code>
+cout << "Hello World";
+</code>
+
+<hr>
+
+<h2>Pre Tag</h2>
+
+<pre>
+Name : Vansh
+Age  : 18
+City : Shimla
+</pre>
+
+</div>
+
+</body>
+</html>
