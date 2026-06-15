@@ -1,9 +1,13 @@
 .vansh{
 
-  height: 500px;
+  height: 100%;
   width: 1000px;
   border: 10px solid black;
  text-align: justify;
-background-image: url(pic1.png);
-background-repeat: no-repeat;
+/* background-image: url(pic1.png);
+background-repeat: no-repeat; */
+
+background: url(pic1.png) no-repeat top right;
+background-size: cover;
+background-attachment: scroll;
 }
