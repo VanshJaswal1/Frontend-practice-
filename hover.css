@@ -1,0 +1,55 @@
+h1 {
+
+       height: 300px;
+       width:  300px;
+     text-align: center;
+     font-style: italic;
+   background-color: aqua;
+   color: black;
+    }
+
+    .hover{
+          height: 400px;
+       width:  500px;
+     text-align: center;
+     font-style: italic;
+     background-color: blue;
+
+    }
+
+    .hover:hover {
+
+       height: 400px;
+       width:  500px;
+     text-align: center;
+     font-style: oblique;
+     background-color: pink;
+
+    }
+      div{
+  background-color: yellow;
+  height: 200;
+  width: 200;
+  text-align: center;
+      }
+
+    div:hover{
+  background-color: red;
+  height: 200;
+  width: 200;
+  text-align: center;
+
+
+    }
+    h1:hover{
+    background-color: purple;
+    color: white;
+
+    transform: scale(1.2) rotate(10deg);
+
+    box-shadow: 0 0 30px cyan;
+
+    border-radius: 50px;
+
+    letter-spacing: 5px;
+}
