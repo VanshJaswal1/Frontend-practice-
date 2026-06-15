@@ -1,0 +1,9 @@
+.vansh{
+
+  height: 500px;
+  width: 1000px;
+  border: 10px solid black;
+ text-align: justify;
+background-image: url(pic1.png);
+background-repeat: no-repeat;
+}
