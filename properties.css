@@ -1,0 +1,9 @@
+.overflow{
+  height: 500px;
+  width: 500px;
+  border: 4px solid black ;
+   /* overflow  is used with hidden and scroll it is best to use scroll as hidden is used to hide the content  */
+
+   overflow: scroll;
+
+}
