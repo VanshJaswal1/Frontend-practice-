@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Display Property Demo</title>
+
+<style>
+
+body{
+    font-family: Arial;
+}
+
+/* BLOCK */
+.block{
+    display:block;
+    background:red;
+    color:white;
+    width:200px;
+    margin:10px;
+}
+
+/* INLINE */
+.inline{
+    display:inline;
+    background:blue;
+    color:white;
+}
+
+/* INLINE BLOCK */
+.inlineblock{
+    display:inline-block;
+    background:green;
+    color:white;
+    width:150px;
+    height:60px;
+    margin:10px;
+}
+
+/* NONE */
+.none{
+    display:none;
+}
+
+/* FLEX */
+.flex{
+    display:flex;
+    gap:10px;
+    border:2px solid black;
+    padding:10px;
+    margin-top:20px;
+}
+
+.flex div{
+    background:orange;
+    padding:20px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    border:2px solid black;
+    padding:10px;
+    margin-top:20px;
+}
+
+.grid div{
+    background:purple;
+    color:white;
+    padding:20px;
+}
+
+/* LIST ITEM */
+.list{
+    display:list-item;
+    margin-left:30px;
+}
+
+</style>
+
 </head>
 <body>
-    
+
+<h1>1. Block</h1>
+
+<div class="block">Box 1</div>
+<div class="block">Box 2</div>
+
+<hr>
+
+<h1>2. Inline</h1>
+
+<span class="inline">Hello</span>
+<span class="inline">World</span>
+
+<hr>
+
+<h1>3. Inline Block</h1>
+
+<div class="inlineblock">Box 1</div>
+<div class="inlineblock">Box 2</div>
+
+<hr>
+
+<h1>4. None</h1>
+
+<p>This text is visible.</p>
+
+<div class="none">
+I am hidden because display:none;
+</div>
+
+<hr>
+
+<h1>5. Flex</h1>
+
+<div class="flex">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<hr>
+
+<h1>6. Grid</h1>
+
+<div class="grid">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+    <div>F</div>
+</div>
+
+<hr>
+
+<h1>7. List Item</h1>
+
+<div class="list">Apple</div>
+<div class="list">Banana</div>
+<div class="list">Mango</div>
+
 </body>
 </html>
