@@ -1,0 +1,7 @@
+.bigcircle{
+    background-color: aqua;
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 500px;
+    width: 500px;
+}
