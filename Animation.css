@@ -1,0 +1,11 @@
+.box{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    margin-top: 80px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: larger;
+  text-align: auto;
+  animation-name: box; 
+}
