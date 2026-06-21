@@ -25,12 +25,13 @@ background-color: blue;
  animation-duration: 5s;
  animation-iteration-count: infinite;
  animation-delay: 2s;
+ animation-fill-mode: both;
 }
 :hover.boxsmall{
    background-color: deeppink;
     box-shadow: 0 0 30px grey;}
 
-/* @keyframes boxsmall {
+ @keyframes boxsmall {
   0% {
      background-color: brown;
      top: 0px;
@@ -57,8 +58,8 @@ background-color: blue;
 
   
   }
-} */
- @keyframes boxsmall {
+} 
+ /* @keyframes boxsmall {
 
     0% {
         top: 0;
@@ -84,4 +85,4 @@ background-color: blue;
         top: 0;
         left: 0;
     }
-}
+} */
