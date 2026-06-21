@@ -23,21 +23,25 @@ position:absolute;
 background-color: blue;
  animation-name: boxsmall;
  animation-duration: 5s;
+ animation-iteration-count: infinite;
 }
+:hover.boxsmall{
+   background-color: deeppink;
+    box-shadow: 0 0 30px grey;}
 
-@keyframes boxsmall {
+/* @keyframes boxsmall {
   0% {
      background-color: brown;
      top: 0px;
      left:0px;
   }
-   25% {  background-color: violet;
-     top: 0px;
+   50% {  background-color: violet;
+     top: 595px;
      left:595px;
 
   } 
-  50% {  background-color: gold;
-     top: 595px;
+  25% {  background-color: gold;
+     top: 0px;
      left:595px;
 
   }75% {  background-color: silver;
@@ -52,4 +56,31 @@ background-color: blue;
 
   
   }
+} */
+ @keyframes boxsmall {
+
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 595px;
+        left: 595px;
+    }
+
+    50% {
+        top: 0;
+        left: 595px;
+    }
+
+    75% {
+        top: 595px;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
